@@ -1,0 +1,69 @@
+body{
+    background: linear-gradient(#dcdcdc, #cfd4d7);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:400px;
+    background:#eee;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+}
+
+.tabs{
+    margin-bottom:20px;
+    font-weight:bold;
+}
+
+.tabs span{
+    margin:0 10px;
+    color:#aaa;
+}
+
+.tabs .active{
+    color:black;
+    border-bottom:3px solid orange;
+}
+
+.avatar img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    margin:20px auto;
+}
+
+input{
+    width:100%;
+    padding:15px;
+    margin:10px 0;
+    border:none;
+    border-radius:8px;
+    background:#ddd;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    background:orange;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#e56a15;
+}
+
+.forgot{
+    margin-top:20px;
+}
+
+.forgot a{
+    color:orange;
+}
